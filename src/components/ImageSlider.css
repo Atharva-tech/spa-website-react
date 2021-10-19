@@ -1,0 +1,69 @@
+.image-container {
+  margin-top: -100px;
+}
+
+.spa-image {
+  height: 500px;
+  width: 60%;
+  border-radius: 3px;
+}
+
+.image-caption {
+  position: relative;
+  top: 150px;
+  color: white;
+}
+
+.image-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  padding: 20px 20px 20px 50px;
+  border: none;
+  border-radius: 5px;
+  width: 200%;
+  font-size: 15px;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 230px;
+}
+
+.image-caption {
+  position: relative;
+  top: 220px;
+}
+
+.icon1 {
+  position: relative;
+  right: -40px;
+  color: grey;
+}
+.icon2 {
+  position: relative;
+  left: -80px;
+  color: grey;
+}
+.icon3 {
+  position: relative;
+  left: -60px;
+}
+
+.image-footer {
+  display: flex;
+  align-items: center;
+  background: #8571ec;
+  position: relative;
+  top: -40px;
+  width: 60%;
+  height: 120px;
+  margin-left: 380px;
+  color: white;
+  justify-content: space-between;
+}

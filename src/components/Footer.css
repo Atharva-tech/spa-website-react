@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  margin: 50px 10px 50px 250px;
+  border-radius: 5px;
+  background-color: rgba(235, 235, 235, 255);
+  width: 1400px;
+  height: 350px;
+}
+
+.company {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.help {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.line {
+  border-left: 1px solid lightgray;
+  height: 250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 250px;
+}
+
+.bottom-line {
+  border-bottom: 1px solid lightgray;
+  margin-top: -100px;
+  width: 1200px;
+  margin-left: 350px;
+}
+
+.follow-us {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  right: -250px;
+  top: -160px;
+}
+
+.footer-content {
+  display: flex;
+  margin-top: -10px;
+  margin-left: 350px;
+}
